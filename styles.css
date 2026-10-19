@@ -3,13 +3,18 @@ body { font-family: Arial; margin: 0; }
 .nav { background: #333; }
 .nav a { color: #444; padding: 10px; display: inline-block; text-decoration: none; }
 
-.hero { text-align: center; padding: 40px; backgroud-color: #eef; }
+.hero { text-align: center; padding: 40px; background-color: #eef; }
 .hero img { width: 600px; }
 
 .cards { display: flex; }
 .card { width: 300px; border: 1px solid #ccc; padding: 16px; margin: 8px; }
+.nav a {color: #fff;}
+
+.cards { display: flex; flex-wrap: wrap; }
+.card { flex: 1 1 250px; }
 
 form { text-align: center; padding: 20px; }
-button { background: blue; color: blue; padding: 8px 16px; border: none; }
+button {  padding: 8px 16px; border: black; border-radius: 30px; }
 
-.footer { background: #333; color: #fff; text-align: center; padding: 12px; }
+.footer { background: #333; color: #fff; text-align: center; padding: 1px; 
+margin-bottom: 100px;}
